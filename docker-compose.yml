@@ -3,6 +3,7 @@ version: '2'
 services:
   portainer:
     image:  portainer/portainer-ce
+    container_name: portainer
     restart: unless-stopped
     network_mode: host
     volumes:
